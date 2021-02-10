@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>memorial books</title>
+    <meta charset="utf-8" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         .main-head{
+            background-color: black;
+            height: 70px;
+            width: 100%;
+          
+        }
+        nav{
+           display: flex;
+           
+           width: 90%;
+           margin: auto;
+           padding: 5px;
+        }
+        @media (max-width: 800px){
+            nav ul li{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .main-head{
+                height: 100px;
+            }
+        }
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex: 5px;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            padding-left: 30px;
+
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+            font-family: Franklin Gothic Book;
+            margin-left: 5px;
+
+        }
+        nav ul li  :hover{ 
+            color: #A42525;
+        }
+       
+        h2{
+            background-color: #A42525;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            color: #fff;
+            font-family: Franklin Gothic Book;
+            font-size: 30px;
+
+
+        }
+        
+       
+        h1{
+            font-family:Bahnschrift ;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+        }
+        .BOOK{
+            color: #A42525;
+        }
+        
+        .ctr{
+            position: relative;
+            margin: 0 5%;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+
+
+        }
+
+        @media screen and (max-width: 1100px){
+            .ctr{
+             display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        }
+
+        @media screen and (max-width: 800px){
+            .ctr{
+             display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        }
+        @media screen and (max-width: 600px){
+            .ctr{
+             display: grid;
+            grid-template-columns: auto auto ;
+        }
+        }
+        div.gallery {
+            text-align: center;
+            margin: 25px;
+            border: 1px solid #A42525;
+            background-color: #A42525;
+            width: 180px;
+            
+    
+        }
+
+        div.gallery:hover {
+            border: 1px solid #000;
+            background-color: #000;
+        }
+
+        div.gallery img {
+        width: 100%;
+        height: auto;
+        }
+
+        div.desc {
+        padding: 15px;
+        text-align: center;
+        color: #fff;
+        font-family: arial;
+        }
+        .boutton{
+            background-color: #fff;
+            border-color: #fff;
+            color: #A42525;
+            padding: 5px;
+            margin: 5px;
+            margin-left: 16px;
+            margin-bottom: 10px;
+            font-size: 12px;
+           width: 150px;
+           height: 40px;
+        }
+        .boutton:hover{
+            color: black;
+
+        }
+        /*___________________________________________FOOTER___________________________________________*/
+    .footer{
+            
+             background-image: url('images/footer-bg.jpg');
+             margin-bottom: 20px;
+             background-size: 100% 100%;
+             width: 100%;
+/*             margin-top: 100%;
+*/             height: 200px;
+             margin-top: 70px;
+
+          
+
+        }
+      
+.container{
+            display: flex;
+            flex-direction: row;
+        }
+       
+ .footer .Follow {
+    margin-bottom: 27px;
+}
+
+
+ .footer .Follow h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    border-bottom: #fff solid 1px;
+    border-bottom-width: 1px;
+    border-width: 1px;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    font-family: Arial;
+}
+ 
+ 
+ 
+.Newsletter  {
+
+    padding: 3px 6px;
+    border: #fff solid 1px;
+    width: 500px;
+    display: flex;
+    
+
+
+ }
+
+.Subscribe {
+
+    padding: 10px 46px;
+    margin-left: -3px;
+    border: #0e0c0c solid 1px;
+    background: #0e0c0c;
+    color: #fff;
+    border-radius: 0;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 13px;
+
+}
+
+@media (max-width: 1100px){
+    .Newsletter {
+        width: 300px;
+}
+}
+@media (max-width: 600px){
+    .Newsletter {
+        width: 220px;
+        padding-left: 15px;
+}
+
+.footer{
+    height: 300px;
+}
+.Subscribe{
+    width: 130px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 30px;
+    
+}
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+
+
+}
+
+
+ ul.location_icon {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+}
+ ul.location_icon li {
+    height: 70px;
+     color: #fff;
+     align-items: center;
+     padding-right: 20px;
+}
+
+
+ 
+ul.location_icon li a{
+    margin-bottom: 23px;}
+ 
+ 
+ .copyright {
+    background-color: #fff;
+    padding: 10px 0px;
+}
+ .copyright p {
+    color: #120f0f;
+    font-size: 16px;
+    text-align: center;
+}
+ .copyright a {
+    color: #120f0f;
+}
+ .copyright a:hover {
+    color: #81256c;
+}
+.dd{
+    padding-left: 90px;
+    }
+    .sub{
+    display: flex;
+    flex-direction: row;
+    }
+        
+
+
+    
+
+    </style>
+    
+        
+</head>
+<body>
+    <header class="main-head">
+
+   
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+
+                <ul>
+                    <li > <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT US</a> </li>
+                    <li><a href="books.html">OUR BOOKS</a></li>
+                    <li><a href="library.html">LIBRARY</a></li>
+                    <li class="active"><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="Event.html">EVENT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
+                    <li><a href="#"><img src="images/top-icon.png" alt="#" /></a> </li>
+
+                </ul>
+            </nav>
+    </header>
+    <h2 class="text">GALLERY</h2>
+    <h1>Best<span class="BOOK"> Books</span> </h1>
+
+<div class="ctr">
+    <div class="gallery">
+          <a target="_blank" href="images/talking.jpg">
+          <img src="images/talking.jpg" alt="book1" width="200" height="200">
+          </a>
+          <div class="desc">This book examines the miscommunications that can arise when we're dealing with strangers. </div>
+          <a target ="_blank" href="https://www.amazon.com/Talking-Strangers-Should-about-People/dp/0316478520/ref=as_li_ss_tl?crid=3ENA9HTFAQKD5&keywords=talking+to+strangers+malcolm+gladwell&qid=1580071047&sprefix=talking+to+st,aps,201&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=f2aa79807141877d09f3bca1c2ea83a7&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/i'am.jpg">
+    <img src="images/i'am.jpg" alt="book2" width="200" height="200">
+  </a>
+  <div class="desc">The book, despite being about death, is profound and life affirming. The essay format makes it very disccussable.</div>
+  <a target ="_blank" href="https://www.amazon.com/Am-Seventeen-Brushes-Death-ebook/dp/B071NR513K/ref=as_li_ss_tl?keywords=i+am+i+am+i+AM&qid=1580147860&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=5c2df02801302fc3f925d5a62148ed2c&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/moment.jpg">
+    <img src="images/moment.jpg" alt="book3" width="200" height="300">
+  </a>
+  <div class="desc">Getting a group of women together to discuss this book is a good first step towards working for more equality all around the world.</div>
+  <a target ="_blank" href="https://www.amazon.com/Moment-Lift-Empowering-Women-Changes/dp/1250313570/ref=as_li_ss_tl?keywords=the+moment+of+lift&qid=1580147894&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=bfce287ead5f19df312b0ec724869b51&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="images/becoming.jpg">
+    <img src="images/becoming.jpg" alt="book4" width="200" height="200">
+  </a>
+  <div class="desc">This is a book that folks on both sides of the political divide can enjoy. I don't think I've heard from anyone yet that didn't like this book!</div>
+  <a target ="_blank" href="https://www.amazon.com/Becoming-Michelle-Obama/dp/1524763136/ref=as_li_ss_tl?keywords=becoming&qid=1580148139&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=f2f66ceb40557ee5212eabeefe367344&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a>
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/circe.jpg">
+    <img src="images/circe.jpg" alt="book5" width="200" height="200">
+  </a>
+  <div class="desc">Greek gods, a complex heroine, action, magic, adventure! This book is everything and it's fantastic.</div>
+  <a target ="_blank" href="https://www.amazon.com/CIRCE-New-York-Times-bestseller/dp/0316556343/ref=as_li_ss_tl?keywords=circe&qid=1580148566&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=f88bd9333a456c4ef4ea9b9cf391b60b&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a>
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/killers.jpg">
+    <img src="images/killers.jpg" alt="book6" width="200" height="200">
+  </a>
+  <div class="desc">I picked this for my book club to discuss in 2018 and everyone that read it thoroughly enjoyed it! There are fantastic book </div>
+  <a target ="_blank" href="https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0307742482/ref=as_li_ss_tl?crid=3K0JC4W2KDMEF&keywords=killers+of+the+flower+moon&qid=1580147927&sprefix=killers+,aps,211&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=385ccd0f4b358752e8e5b5b2572b827b&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a></div>
+
+  <div class="gallery">
+  <a target="_blank" href="images/educated.jpg">
+    <img src="images/educated.jpg" alt="book7" width="200" height="200">
+  </a>
+  <div class="desc">This book brought the biggest turnout to our book club last year and was named the favorite read by many book club members at the end of the year. It was also the longest book club we had last year,we clocked over 3 hours</div>
+  <a target ="_blank" href="https://www.amazon.com/Educated-Memoir-Tara-Westover/dp/0399590501/ref=as_li_ss_tl?keywords=educated&qid=1580147951&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=f141024f9c2d510073e5a88a6b65d2d6&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a></div>
+
+  <div class="gallery">
+  <a target="_blank" href="images/blue.jpg">
+    <img src="images/blue.jpg" alt="book8" width="200" height="200">
+  </a>
+  <div class="desc">This is my favorite book by Joan Didion. It's an intensely personal and emotional book about losing her daughter.  </div>
+  <a target ="_blank" href="https://www.amazon.com/Blue-Nights-Joan-Didion/dp/0307387380/ref=as_li_ss_tl?keywords=blue+nights&qid=1580148112&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=42681b3e95f047c449028db5abefd181&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a></div>
+
+   <div class="gallery">
+  <a target="_blank" href="images/air.jpg">
+    <img src="images/air.jpg" alt="book9" width="200" height="200">
+  </a>
+  <div class="desc">This was the first book club discussion I attended and it was so fantastic that I've been back almost every month for the past two years. </div>
+  <a target ="_blank" href="https://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X/ref=as_li_ss_tl?crid=304WR2LLVF2R9&keywords=when+breath+becomes+air&qid=1580150395&sprefix=when+breath,aps,196&sr=8-1&linkCode=ll1&tag=wwwsomethewis-20&linkId=e453df3db2a9976b01e885841d819459&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a></div>
+
+  <div class="gallery">
+  <a target="_blank" href="images/the hate u.jpg">
+    <img src="images/the hate u.jpg" alt="book10" width="200" height="200">
+  </a>
+  <div class="desc">This book inspired one of our very best book club discussions last year.but everyone definitely enjoyed the discussion.</div>
+  <a target ="_blank" href="https://www.amazon.com/Hate-U-Give-Angie-Thomas/dp/0062498533/ref=as_li_ss_tl?keywords=the+hate+u+give&qid=1580148593&sr=8-5&linkCode=ll1&tag=wwwsomethewis-20&linkId=7ff50b931ae74e5cf6eaa6ea9f68ec53&language=en_US"><button class="boutton"><b>VIEW ON AMAZON</b></button></a></div>
+</div>
+  <footer >
+
+        <div class="footer">
+           
+          
+            <div class="container ">
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Follow Us</h3>
+                     </div>
+                     <ul class="location_icon">
+                        <li> <a href="#"><img src="icon/facebook.png"></a></li>
+                        <li> <a href="#"><img src="icon/Twitter.png"></a></li>
+                        <li> <a href="#"><img src="icon/linkedin.png"></a></li>
+                        <li> <a href="#"><img src="icon/instagram.png"></a></li>
+                     </ul>
+                  </div>
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Newsletter</h3>
+                     </div>
+                     <div class="sub">
+                     <input class="Newsletter" placeholder="Enter your email" type="Enter your email">
+                     <button class="Subscribe">Subscribe</button></div>
+                  </div>
+               </div>
+         </div>
+         <div class="copyright">
+            <div class="contr">
+               <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
+            </div>
+         </div>
+
+    </footer>
+      
+
+
+  
+  
+
+
+</body>
+</html>

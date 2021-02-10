@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>memorial books</title>
+    <meta charset="utf-8" />
+    
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        
+        h2{
+            
+            background-color: #A42525;
+            height: 100px;
+            line-height: 100px;
+
+
+
+        }
+        .text{
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            font-family: Franklin Gothic Book;
+        }
+       
+        h1{
+            
+            padding-left: 60px;
+            margin-top: 20px;
+            
+        }
+        .title{
+            font-size: 60px;
+            font-family:Bahnschrift ;
+        }
+        .tit{
+            font-size: 30px;
+            font-family: gabriola;
+        }
+       
+
+        .coulour{
+            color: #A42525;
+        }
+      
+        .main-head{
+            background-color: black;
+            height: 70px;
+            width: 100%;
+          
+        }
+        nav{
+           display: flex;
+           width: 90%;
+           margin: auto;
+           padding: 5px;
+        }
+
+        @media (max-width: 800px){
+            nav ul li{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .main-head{
+                height: 100px;
+            }
+        }
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex: 5px;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            padding-left: 30px;
+
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+            font-family: Franklin Gothic Book;
+            
+
+        }
+        nav ul li  :hover{ 
+            color: #A42525;
+        }
+        #image{
+             float: right;
+             margin: 0;
+             width: 600px;
+        }
+      @media (max-width: 800px){
+            #image{
+                width: 550px;
+            }
+        }
+        @media(max-width: 600px){
+            #image{
+                width: 400px;
+                height: 650px;
+            }
+            
+        }
+
+        p{
+            margin-left: 60px;
+            margin-top: 80px;
+            font-size: 35px;
+            font-family: simple outline pat;
+        }
+        button{
+            background-color: #752876;
+            color: #fff;
+            font-family: roboto;
+            font-size: 20px;
+            border-radius: 35px;
+            border: #752876;
+            width: 200px;
+            height: 70px;
+
+        }
+        .boutton{
+
+            padding-left: 200px;
+            margin-top: 100px;}
+        @media (max-width: 600px){
+            .boutton{
+                padding-left: 150px;
+            }
+            p{
+                font-size: 25px;
+            }
+        }
+        button:hover{
+            background-color: black;
+        }
+
+/*------------------------------------------------------------------------footer-----------------------------------------------------------------------*/
+         .footer{
+            
+             background-image: url('images/footer-bg.jpg');
+             margin-bottom: 20;
+             background-size: 100% 100%;
+             width: 100%;
+             margin-top: 200px;
+             height: 200px;
+            /
+
+          
+
+        }
+                  
+            .container{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                   
+             .footer .Follow {
+                margin-bottom: 27px;
+            }
+
+
+             .footer .Follow h3 {
+                color: #fff;
+                font-size: 25px;
+                line-height: 30px;
+                font-weight: 600;
+                border-bottom: #fff solid 1px;
+                border-bottom-width: 1px;
+                border-width: 1px;
+                display: inline-block;
+                padding-bottom: 2px;
+                margin-top: 20px;
+                font-family: Arial;
+            }
+             
+             
+             
+            .Newsletter  {
+
+                padding: 3px 6px;
+                border: #fff solid 1px;
+                width: 500px;
+                display: flex;
+                
+
+
+             }
+
+            .Subscribe {
+
+                padding: 10px 46px;
+                margin-left: -3px;
+                border: #0e0c0c solid 1px;
+                background: #0e0c0c;
+                color: #fff;
+                border-radius: 0;
+                height: 50px;
+                font-size: 20px;
+                text-align: center;
+                padding-top: 13px;
+
+
+            }
+
+            @media (max-width: 1100px){
+                .Newsletter {
+                    width: 300px;
+            }
+            }
+            @media (max-width: 600px){
+                .Newsletter {
+                    width: 220px;
+                    padding-left: 15px;
+            }
+
+            .footer{
+                height: 300px;
+            }
+            .Subscribe{
+                width: 130px;
+                font-size: 15px;
+                text-align: center;
+                padding-top: 15px;
+                padding-left: 30px;
+                
+            }
+             .container{
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+            .dd{
+                margin-left: 0;
+                padding-left: 0;
+            }
+
+
+
+
+            }
+
+
+             ul.location_icon {
+                 list-style: none;
+                 margin: 0;
+                 padding: 0;
+                 width: 100%;
+                 display: flex;
+                 flex-direction: row;
+            }
+             ul.location_icon li {
+                height: 70px;
+                 color: #fff;
+                 align-items: center;
+                 padding-right: 20px;
+            }
+
+
+             
+            ul.location_icon li a{
+                margin-bottom: 23px;}
+             
+             
+             .copyright {
+                background-color: #fff;
+                padding: 10px 0px;
+
+            }
+             .copyright p {
+                color: #120f0f;
+                font-size: 16px;
+                text-align: center;
+            }
+             .copyright a {
+                color: #120f0f;
+            }
+             .copyright a:hover {
+                color: #81256c;
+            }
+            .dd{
+                padding-left: 90px;
+                }
+                .sub{
+                display: flex;
+                flex-direction: row;
+                }
+                    
+
+        
+        
+
+
+
+    </style>
+</head>
+<body >
+    <header class="main-head">
+
+   
+        <nav>
+    <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+
+    <ul>
+    	<li > <a href="index.html">HOME</a> </li>
+    	<li> <a href="about.html">ABOUT US</a> </li>
+        <li><a href="books.html">OUR BOOKS</a></li>
+        <li><a href="library.html">LIBRARY</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li class="active"><a href="Event.html">EVENT</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+        <li><a href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
+        <li><a href="#"><img src="images/top-icon.png" alt="#" /></a> </li>
+
+    </ul>
+
+    </nav>
+    </header>
+    
+    <h2 class="text">EVENT</h2>
+    <img id="image" src="images/event.png" alt="pic" />
+    
+    
+    <h1><span class="title">World Book <span class="coulour">Day</span> </span><sub class="tit">April<span class="coulour">23</span></sub></h1>
+    
+    
+    <p> world book, also know as world<br />
+        book and copyright day, or international <br /> 
+        day of the book,is an annual event <br />
+        organized by the united nations<br />
+        educational, Scientific, and cultural<br />
+        organization (UNESCO) to promote <br />
+        reading, publishing, and copyright.<br />
+    </p>
+    <div class="boutton"><button >Read More</button></div> 
+
+    <footer >
+
+        <div class="footer">
+           
+          
+            <div class="container ">
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Follow Us</h3>
+                     </div>
+                     <ul class="location_icon">
+                        <li> <a href="#"><img src="icon/facebook.png"></a></li>
+                        <li> <a href="#"><img src="icon/Twitter.png"></a></li>
+                        <li> <a href="#"><img src="icon/linkedin.png"></a></li>
+                        <li> <a href="#"><img src="icon/instagram.png"></a></li>
+                     </ul>
+                  </div>
+                  <div class="dd">
+                     <div class="Follow">
+                        <h3>Newsletter</h3>
+                     </div>
+                     <div class="sub">
+                     <input class="Newsletter" placeholder="Enter your email" type="Enter your email">
+                     <button class="Subscribe">Subscribe</button></div>
+                  </div>
+               </div>
+         </div>
+         <div class="copyright">
+            <div class="contr">
+               <p>Copyright 2019 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
+            </div>
+         </div>
+
+    </footer>
+      
+    
+    
+    
+    
+</body>
+</html>
